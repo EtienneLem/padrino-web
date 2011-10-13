@@ -19,4 +19,6 @@ $(document).ready(function() {
       }
     }
   });
+  
+  if ( window.FixedSidebar ) var fixedSidebar = new FixedSidebar();
 });
